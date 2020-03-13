@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="Quiz02.html">
+	<table>
+		<tr>
+			<td>다음 <font style="background-color:#f89b00">내용에 맞게 입력</font> 하시오.</td>
+			<td rowspan="3"><img src="test.jpg" width="250px" height="280px" border="10"></td>
+		</tr>
+		<tr>
+			<td>전공 분야를 입력하세요.&nbsp;
+				<select size="1" name="object">
+					<option value="p1" selected>소프트웨어
+					<option value="p2">하드웨어
+					<option value="p3">엔지니어
+				</select>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td>
+			이름&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"><br>
+			<p>아이디&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="id"><br></p>
+			비밀번호&nbsp;&nbsp;<input type="text" name="pw"><br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<fieldset style="width:600px">
+					<legend>성별 조사</legend>
+					여성<input type="radio" checked="checked">
+					남성<input type="radio">
+				</fieldset>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<fieldset style="width:600px">
+					<legend>취미 조사</legend>
+					책읽기<input type="checkbox">
+					공부하기<input type="checkbox">
+					책 읽으며 공부하기<input type="checkbox">
+					컴퓨터<input type="checkbox">
+				</fieldset>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<fieldset style="width:600px">
+					<legend>하고 싶은 말</legend>
+					<textarea rows="5" cols="80%"></textarea>
+				</fieldset>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="submit" value="완료">
+				<input type="reset" value="다시작성">
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
